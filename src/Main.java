@@ -25,5 +25,10 @@ public class Main {
         for (int i5 = 1904; i5 < 2097; i5 = i5 + 4) {
             System.out.println(i5 + " год является високосным");
         }
+        //Задача 6
+        System.out.println("Задача 6");
+        for (int i6 = 7; i6 < 99; i6 = i6 + 7) {
+            System.out.println("" + i6);
+        }
     }
 }
