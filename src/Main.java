@@ -15,5 +15,11 @@ public class Main {
         for (int i3 = 0; i3 < 17; i3+=2) {
             System.out.println("Котиков у бабы Гали стало " + i3);
         }
+        //Задача 4
+        System.out.println("Задача 4");
+        for (int i4 = 10; i4 > -11; i4--) {
+            System.out.println("Котиков у бабы Гали стало " + i4);
+        }
     }
+
 }
