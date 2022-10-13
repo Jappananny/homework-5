@@ -35,6 +35,14 @@ public class Main {
         for (int i7 = 1; i7 < 513; i7 = i7 * 2) {
             System.out.println("" + i7);
         }
-
+        //Задача 8
+        System.out.println("Задача 8");
+        int moneyForEat = 29000;
+        int total = 0;
+        for (int i8 = 0; i8 < 12; i8++) {
+            total = total + moneyForEat;
+            System.out.println("Месяц " + i8 + " , сумма накоплений равна " + total + " рублей");
+        }
+        System.out.println("Итого "+total);
     }
 }
