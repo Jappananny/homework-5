@@ -30,5 +30,11 @@ public class Main {
         for (int i6 = 7; i6 < 99; i6 = i6 + 7) {
             System.out.println("" + i6);
         }
+        //Задача 7
+        System.out.println("Задача 7");
+        for (int i7 = 1; i7 < 513; i7 = i7 * 2) {
+            System.out.println("" + i7);
+        }
+
     }
 }
