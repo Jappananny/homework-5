@@ -44,5 +44,16 @@ public class Main {
             System.out.println("Месяц " + i8 + " , сумма накоплений равна " + total + " рублей");
         }
         System.out.println("Итого "+total);
+
+        //Задача 9
+        System.out.println("Задача 9");
+        int moneyForEat2 = 29000;
+        int total1 = 0;
+        for (int i9 = 0; i9 < 12; i9++) {
+            total1 = total1 + moneyForEat2/100;
+            total1 = total1 + moneyForEat2;
+            System.out.println("Месяц " + i9 + " , сумма накоплений равна " + total1 + " рублей");
+        }
+        System.out.println("Итого "+total1);
     }
 }
